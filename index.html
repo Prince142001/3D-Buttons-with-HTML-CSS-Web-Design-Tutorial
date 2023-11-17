@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------------------- Google Font --------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+
+    <title>🚀 3D Buttons with HTML & CSS | </ZonetoCode /> 💻</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #FFF6F6;
+        }
+
+        button {
+            padding: 10px 16px;
+            font-size: 24px;
+            font-family: 'Boogaloo', sans-serif;
+            color: #FFF6F6;
+            background-color: #005aff;
+            text-transform: capitalize;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            box-shadow: 6px 6px 0px #002d81;
+        }
+
+        button:active {
+            transform: translateX(2px) translateY(2px);
+            transition: all 0.1s ease;
+            box-shadow: 4px 4px 0px #002d81;
+        }
+
+        a {
+            margin-left: 20px;
+            padding: 10px 16px;
+            font-size: 24px;
+            font-family: 'Boogaloo', sans-serif;
+            color: #FFF6F6;
+            background-color: #ff00a6;
+            text-transform: capitalize;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 6px 6px 0px #ff00a633;
+        }
+
+        a:active {
+            transform: translateX(2px) translateY(2px);
+            transition: all 0.1s ease;
+            box-shadow: 4px 4px 0px #ff00a633;
+        }
+    </style>
+</head>
+
+<body>
+    <button>click me!</button>
+    <a href="#">click me!!</a>
+</body>
+
+</html>
